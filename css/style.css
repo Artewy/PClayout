@@ -165,6 +165,10 @@ input {
     margin-right: 3rem;
 }
 
+.timer__expired {
+    color: red;
+}
+
 .main-display__timer {
     margin-bottom: 7.6rem;
 }
@@ -201,7 +205,7 @@ input {
     margin-bottom: 10px;
 }
 
-.course__counter-line, 
+.course__counter-line,
 .course__progress-label {
     color: #FFFFFF40;
 }
@@ -383,7 +387,7 @@ progress::-moz-progress-value {
 }
 
 .program-line {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
     width: 750px;
 }
