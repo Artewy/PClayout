@@ -19,7 +19,7 @@ const timer = () => {
 
     const updateTimer = () => {
         const date = new Date();
-        const dateDeadline = new Date('12 june 2026').getTime();
+        const dateDeadline = new Date(2026, 5, 12).getTime();
         const timeRemaining = (dateDeadline - date) / 1000;
 
 
